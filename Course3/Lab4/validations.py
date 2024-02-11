@@ -11,7 +11,6 @@ def validate_user(username, minlen):
     
     if username[0] in ['.','_']:
         return False
-
     # Usernames can't be shorter than minlen
     if len(username) < minlen:
         return False
